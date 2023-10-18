@@ -19,19 +19,16 @@ Installation:
 
 1.  **Clone the Repository**:
     
-    bashCopy code
     
     `git clone https://github.com/kitamura-felipe/VoiceGPT.git`
     
 2.  **Navigate to the Cloned Directory**:
     
-    bashCopy code
     
     `cd VoiceGPT`
     
 3.  **Install Required Packages**:
     
-    bashCopy code
     
     `pip install openai speech_recognition pyttsx3 pydub requests`
     
@@ -42,7 +39,6 @@ Setup:
 1.  **API Key Configuration**:
     *   Create a `config.json` in the root directory with the following format:
         
-        jsonCopy code
         
         `{     "api_key": "YOUR_OPENAI_API_KEY" }`
         
@@ -53,7 +49,6 @@ Usage:
 
 1.  **Run the Script**:
     
-    bashCopy code
     
     `python VoiceGPT.py`
     
